@@ -1,0 +1,33 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 320px) {
+  .team_thumb{
+    height: 250px;
+  }
+}
+@media only screen and (max-height: 640px) {
+  .team_thumb{
+    height: 320px;
+  }
+}
+@media only screen and (max-height: 2160px) {
+  .team_thumb{
+    height: 380px;
+  }
+}
+.team_thumb{
+  content: "";
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  max-height: 380px;
+}
+.company_relation_slider .owl-stage{
+  height: 100px;
+  display: flex;
+}
+.company_relation_slider .owl-stage .owl-item{
+  align-self: center;
+}

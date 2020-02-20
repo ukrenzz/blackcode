@@ -10,8 +10,8 @@ function CounterAreaTemplate() {
               <div className="counter_icon">
                 <img src="assets/img/svg_icon/group.svg" alt=""/>
               </div>
-              <h3> <span className="counter">200</span> <span> +</span> </h3>
-              <p>Team Members</p>
+              <h3> <span className="counter">6</span>  </h3>
+              <p>Jumlah anggota</p>
             </div>
           </div>
           <div className="col-xl-3 col-lg-3 col-md-3">
@@ -20,7 +20,7 @@ function CounterAreaTemplate() {
                 <img src="assets/img/svg_icon/cart.svg" alt=""/>
               </div>
               <h3> <span className="counter">97</span> <span>%</span> </h3>
-              <p>Business Success</p>
+              <p>Project Berhasil</p>
             </div>
           </div>
           <div className="col-xl-3 col-lg-3 col-md-3">
@@ -28,7 +28,7 @@ function CounterAreaTemplate() {
               <div className="counter_icon">
                 <img src="assets/img/svg_icon/heart.svg" alt=""/>
               </div>
-              <h3> <span className="counter">5628</span></h3>
+              <h3> <span className="counter">10</span></h3>
               <p>Happy Client</p>
             </div>
           </div>
@@ -37,8 +37,8 @@ function CounterAreaTemplate() {
               <div className="counter_icon">
                 <img src="assets/img/svg_icon/respect.svg" alt=""/>
               </div>
-              <h3> <span className="counter">5637</span> </h3>
-              <p>Business Done</p>
+              <h3> <span className="counter">11</span> </h3>
+              <p>Proyek Selesai</p>
             </div>
           </div>
         </div>

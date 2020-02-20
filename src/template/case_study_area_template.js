@@ -2,13 +2,13 @@ import React from 'react';
 
 function CaseStudyAreaTemplate() {
   return (
-    <div className="case_study_area">
+    <div className="case_study_area" id="caseStudyAreaEl">
       <div className="container">
         <div className="border_bottom">
           <div className="row">
             <div className="col-xl-12">
               <div className="section_title text-center mb-40">
-                <h3>Case Study</h3>
+                <h3>Portofolio</h3>
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ function AboutInfoAreaTemplate() {
         <div className="row align-items-center">
           <div className="col-xl-6 col-lg-6">
             <div className="about_text">
-              <h3>Why our Consulting?</h3>
+              <h3>Mengapa ?</h3>
               <p>Esteem spirit temper too say adieus who direct esteem.
                   It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
               <a href="#" className="boxed-btn3">About Us</a>

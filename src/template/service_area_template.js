@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function ServiceAreaTemplate() {
   return (
-    <div className="service_area">
+    <div className="service_area" id="servicesAreaEl">
       <div className="container">
         <div className="row">
           <div className="col-xl-12">
@@ -17,8 +18,8 @@ function ServiceAreaTemplate() {
               <div className="service_icon">
                 <img src="assets/img/svg_icon/1.svg" alt=""/>
               </div>
-              <h3>Marketing & SEO Agency</h3>
-              <p>Esteem spirit temper too say adieus who direct esteem.</p>
+              <h3>Desain Grafis</h3>
+              <p>Memberikan pelayanan terbaik dalam desain segala keperluan anda dengan efisien.</p>
               <a href="#" className="learn_more">Learn More</a>
             </div>
           </div>
@@ -27,8 +28,8 @@ function ServiceAreaTemplate() {
               <div className="service_icon">
                 <img src="assets/img/svg_icon/2.svg" alt=""/>
               </div>
-              <h3>Startup Agency</h3>
-              <p>Esteem spirit temper too say adieus who direct esteem.</p>
+              <h3>Cetakan</h3>
+              <p>Menerima segala jenis cetakan seperti banner, undangan, kalender, dan lainnya</p>
               <a href="#" className="learn_more">Learn More</a>
             </div>
           </div>
@@ -37,8 +38,8 @@ function ServiceAreaTemplate() {
               <div className="service_icon">
                 <img src="assets/img/svg_icon/3.svg" alt=""/>
               </div>
-              <h3>Corporate Business</h3>
-              <p>Esteem spirit temper too say adieus who direct esteem.</p>
+              <h3>Desain Website</h3>
+              <p>Merancang tata letak ataupun pembuatan website statis yang keren untuk keperluan anda.</p>
               <a href="#" className="learn_more">Learn More</a>
             </div>
           </div>
@@ -47,8 +48,8 @@ function ServiceAreaTemplate() {
               <div className="service_icon">
                 <img src="assets/img/svg_icon/4.svg" alt=""/>
               </div>
-              <h3>Finance Solution</h3>
-              <p>Esteem spirit temper too say adieus who direct esteem.</p>
+              <h3>Aplikasi Sederhana</h3>
+              <p>Menyediakan banyak aplikasi sederhana sebagai alat pembelajaran yang mudah dipahami.</p>
               <a href="#" className="learn_more">Learn More</a>
             </div>
           </div>
@@ -57,8 +58,8 @@ function ServiceAreaTemplate() {
               <div className="service_icon">
                 <img src="assets/img/svg_icon/5.svg" alt=""/>
               </div>
-              <h3>Food & Restaurant</h3>
-              <p>Esteem spirit temper too say adieus who direct esteem.</p>
+              <h3>Aplikasi Perusahaan</h3>
+              <p>Pembuatan aplikasi untuk perusahaan seperti inventory, billing, dan lainnya.</p>
               <a href="#" className="learn_more">Learn More</a>
             </div>
           </div>
@@ -67,8 +68,8 @@ function ServiceAreaTemplate() {
               <div className="service_icon">
                 <img src="assets/img/svg_icon/6.svg" alt=""/>
               </div>
-              <h3>Travel Agency </h3>
-              <p>Esteem spirit temper too say adieus who direct esteem.</p>
+              <h3>Aplikasi Tugas Akhir</h3>
+              <p>Menerima pembuatan aplikasi tugas akhir seperti dengan efisien dan mudah dipahami.</p>
               <a href="#" className="learn_more">Learn More</a>
             </div>
           </div>

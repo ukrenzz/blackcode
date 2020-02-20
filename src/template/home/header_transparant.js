@@ -1,11 +1,12 @@
 import React from 'react';
 // import logo from './logo.svg';
 // import './App.css';
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 function Header() {
   return (
-    <header>
-      <div className="header-area ">
+    <header id="headerElement">
+      <div className="header-area">
         <div className="header-top_area d-none d-lg-block">
           <div className="container">
             <div className="row">
@@ -46,7 +47,7 @@ function Header() {
                 <div className="col-xl-3 col-lg-2">
                   <div className="logo">
                     <a href="/">
-                      <img src="assets/img/logo.png" alt=""/>
+                      <img src="assets/img/logo.png" alt="" width="100"/>
                     </a>
                   </div>
                 </div>
@@ -54,15 +55,10 @@ function Header() {
                   <div className="main-menu  d-none d-lg-block">
                     <nav>
                       <ul id="navigation">
-                        <li><a className="active" href="/">home</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="study.html">Case study</a></li>
-                        <li><a href="#">blog <i className="ti-angle-down"></i></a>
-                          <ul className="submenu">
-                            <li><a href="blog.html">blog</a></li>
-                            <li><a href="single-blog.html">single-blog</a></li>
-                          </ul>
-                        </li>
+                        <li><a href="#headerElement" class="actDisable"><Link className="Home" to="headerElement" spy={true} smooth={true} duration={250}>Home</Link></a></li>
+                        <li><a href="#servicesAreaEl" class="actDisable"><Link className="Service" to="servicesAreaEl" spy={true} smooth={true} duration={250}>Layanan</Link></a></li>
+                        <li><a href="#caseStudyAreaEl" class="actDisable"><Link className="Case" to="caseStudyAreaEl" spy={true} smooth={true} duration={250}>Portofolio</Link></a></li>
+                        <li><a href="#teamAreaEl" class="actDisable"><Link className="Case" to="teamAreaEl" spy={true} smooth={true} duration={250}>Team</Link></a></li>
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="/about">About</a></li>
                       </ul>
@@ -72,7 +68,7 @@ function Header() {
                 <div className="col-xl-3 col-lg-3 d-none d-lg-block">
                   <div className="Appointment">
                     <div className="book_btn d-none d-lg-block">
-                      <a  href="#">Get a Quote</a>
+                      <a  href="#">Pesan Sesuatu</a>
                     </div>
                   </div>
                 </div>

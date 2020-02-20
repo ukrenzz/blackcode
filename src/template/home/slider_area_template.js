@@ -22,7 +22,7 @@ function SliderAreaTemplate() {
                   <h3>Kemudahan kamu <br/>
                     kami utamakan</h3>
                   <div className="video_service_btn">
-                    <a href="#" className="boxed-btn3">Pesan Desainmu</a>
+                    <a href="#" className="boxed-btn3">Pesan Jasa</a>
                   </div>
                 </div>
               </div>

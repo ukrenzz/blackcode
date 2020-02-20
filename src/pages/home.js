@@ -9,8 +9,12 @@ import AccordionArea        from '../template/accordion_area_template';
 import TestimonialArea      from '../template/testimonial_area_template';
 import TeamArea             from '../template/team_area_template';
 import ContactFormQuoteArea from '../template/contact_form_quote_template';
+import CompanyRelation      from '../template/company_relation_template';
 import InformationArea      from '../template/information_area_template';
 import Footer               from '../template/footer_template';
+
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+
 
 function HomePages() {
   return (
@@ -18,13 +22,11 @@ function HomePages() {
       <Header />
       <SliderArea />
       <ServiceArea />
-      <AboutArea />
+      <CompanyRelation />
       <CounterArea />
       <CaseStudyArea />
-      <AccordionArea />
       <TestimonialArea />
       <TeamArea />
-      <ContactFormQuoteArea />
       <InformationArea />
       <Footer />
     </React.Fragment>

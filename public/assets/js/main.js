@@ -14,10 +14,8 @@ $(window).on('scroll', function () {
 
 
 
-
-
 $(document).ready(function(){
-
+console.clear();
 // mobile_menu
 var menu = $('ul#navigation');
 if(menu.length){
@@ -133,6 +131,45 @@ autoplaySpeed: 800,
       },
       1600:{
           items:3,
+          nav:true
+      }
+  }
+});
+
+// Company Relation Slider
+$('.company_relation_slider').owlCarousel({
+  loop:true,
+  margin:0,
+items:1,
+autoplay:true,
+navText:['<i class="ti-angle-left ml-0"></i>','<i class="ti-angle-right"></i>'],
+  nav:true,
+dots:false,
+autoplayHoverPause: true,
+autoplaySpeed: 800,
+  responsive:{
+      0:{
+          items:2,
+          nav:false,
+      },
+			350:{
+          items:3,
+          nav:false,
+      },
+      767:{
+          items:3,
+          nav:false,
+      },
+      992:{
+          items:5,
+          nav:false
+      },
+      1200:{
+          items:5,
+          nav:false
+      },
+      1600:{
+          items:5,
           nav:true
       }
   }
